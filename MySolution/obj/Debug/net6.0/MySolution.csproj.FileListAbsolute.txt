@@ -1,0 +1,15 @@
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\bin\Debug\net6.0\MySolution.exe
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\bin\Debug\net6.0\MySolution.deps.json
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\bin\Debug\net6.0\MySolution.runtimeconfig.json
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\bin\Debug\net6.0\MySolution.dll
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\bin\Debug\net6.0\MySolution.pdb
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\obj\Debug\net6.0\MySolution.csproj.AssemblyReference.cache
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\obj\Debug\net6.0\MySolution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\obj\Debug\net6.0\MySolution.AssemblyInfoInputs.cache
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\obj\Debug\net6.0\MySolution.AssemblyInfo.cs
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\obj\Debug\net6.0\MySolution.csproj.CoreCompileInputs.cache
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\obj\Debug\net6.0\MySolution.dll
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\obj\Debug\net6.0\refint\MySolution.dll
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\obj\Debug\net6.0\MySolution.pdb
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\obj\Debug\net6.0\MySolution.genruntimeconfig.cache
+C:\Users\EliteDesk\RiderProjects\MySolution\MySolution\obj\Debug\net6.0\ref\MySolution.dll
