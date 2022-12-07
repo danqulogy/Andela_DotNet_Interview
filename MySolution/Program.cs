@@ -1,21 +1,66 @@
-﻿class Program
+﻿using System.Collections;
+
+class Program
 {
     public static void Main()
     {
-        var fibonacciResults = FibonnaciSequence(8);
-        foreach (var item in fibonacciResults)
-        {
-            Console.WriteLine(item);
-        }
-        
-        
-        var result  = BlowBirthdayCandles(7, new List<int> { 3,2,1,3,6,2,1 });
-        Console.WriteLine($"Number of Candles blown is {result}");
-        Console.ReadLine();
+        // var fibonacciResults = FibonnaciSequence(8);
+        // foreach (var item in fibonacciResults)
+        // {
+        //     Console.WriteLine(item);
+        // }
+        //
+        // var result  = BlowBirthdayCandles(7, new List<int> { 3,2,1,3,6,2,1 });
+        // Console.WriteLine($"Number of Candles blown is {result}");
+        // Console.ReadLine();
+        //
+        // MinMax(new List<int> { 1,3,5,7,9});
 
-        MinMax(new List<int> { 1,3,5,7,9});
+        // var results = FindPair(new List<int> { 8,2,9,5,10,1 }, 12);
+        // Console.WriteLine($"Find Pair Results: {results}");
+
+        var results = FindFirstRepeatingChar("abbracadadabra");
+        Console.WriteLine($"Find Pair Results: {results}");
     }
 
+    static char? FindFirstRepeatingChar(string str)
+    {
+        var found = new HashSet<char>();
+
+        foreach (var c in str)
+        {
+            if (found.Contains(c))
+            {
+                return c;
+            }
+            else
+            {  
+                found.Add(c);
+            }
+        }
+
+        return null;
+    }
+
+    static bool FindPair(List<int> arr, int k)
+    {
+        var visited = new HashSet<int>();
+
+        foreach (var t in arr)
+        {
+            if (visited.Contains(k - t))
+            {
+                return true;
+            }
+            else
+            {
+                visited.Add(t);
+            }
+        }
+
+        return false;
+    }
+    
     static List<int> FibonnaciSequence(int number)
     {
         if (number <= 0) return new();
@@ -55,7 +100,6 @@
         }
 
         return 0;
-
     }
 
     static void MinMax(List<int> arr)
@@ -66,13 +110,9 @@
         
         for (int i = 0; i < 4; i++)
         {
-            
             var endIndex = arr.Count - 1;
-
             min += arr[i];
             max += arr[endIndex];
-
-
         }
 
         Console.WriteLine($"Min: {min}, Max: {max}");}
